@@ -9,8 +9,9 @@
 
   <div id="wrapper">
 	<div id="menu">
-	<p> Welcome user</p>
-	<p> Exit</p>
+	<p class="welcome"> Welcome, <b></b></p>
+	<p class="logout"><a href="#" id="exit"></a> Exit chat</p>
+	<div style="clear:both"></div>
 	</div>
 	<div id="chatbox"> </div>
 	<form action="" name="message">
